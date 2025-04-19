@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
 git clone https://github.com/umutekici/AISqlApi.git
 cd AISqlApi
 
-### 2. **Set Up Your API Key**
+### 1.1 **Set Up Your API Key**
 
 You will need an API key to use the AI model (GPT-3 or similar). Add your API key to the **appsettings.json** file.
 
@@ -42,7 +42,7 @@ You will need an API key to use the AI model (GPT-3 or similar). Add your API ke
   }
 }
 
-### 3. **Run the Project**
+### 1.2 **Run the Project**
 
 Use the following command to run the project:
 
