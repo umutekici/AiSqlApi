@@ -1,0 +1,79 @@
+[
+  {
+    "TableName": "Products",
+    "Keywords": [ "ürün", "product", "mal", "eşya", "item" ],
+    "Columns": [
+      {
+        "Name": "Id",
+        "DataType": "INT"
+      },
+      {
+        "Name": "ProductName",
+        "DataType": "VARCHAR",
+        "Description": "Ürünün adı (örneğin: 'Laptop')"
+      },
+      {
+        "Name": "Category",
+        "DataType": "VARCHAR",
+        "Description": "Ürünün kategorisi (örneğin: 'Elektronik')"
+      },
+      {
+        "Name": "Price",
+        "DataType": "DECIMAL",
+        "Description": "Ürünün fiyatı"
+      },
+      {
+        "Name": "StockQuantity",
+        "DataType": "INT"
+      }
+    ]
+  },
+  {
+    "TableName": "Orders",
+    "Keywords": [ "sipariş", "order", "satın al", "talep", "istek", "request", "purchase" ],
+    "Columns": [
+      {
+        "Name": "Id",
+        "DataType": "INT"
+      },
+      {
+        "Name": "CustomerId",
+        "DataType": "INT"
+      },
+      {
+        "Name": "ProductId",
+        "DataType": "INT"
+      },
+      {
+        "Name": "Amount",
+        "DataType": "DECIMAL"
+      }
+    ]
+  },
+  {
+    "TableName": "Customers",
+    "Keywords": [ "müşteri", "customer", "tüketici", "alıcı", "client", "buyer", "consumer","kişi" ],
+    "Columns": [
+      {
+        "Name": "Id",
+        "DataType": "INT"
+      },
+      {
+        "Name": "Name",
+        "DataType": "VARCHAR"
+      },
+      {
+        "Name": "Surname",
+        "DataType": "VARCHAR"
+      },
+      {
+        "Name": "Email",
+        "DataType": "VARCHAR"
+      },
+      {
+        "Name": "Phone",
+        "DataType": "VARCHAR"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+@AiSqlApi_HostAddress = http://localhost:5046
+
+GET {{AiSqlApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
