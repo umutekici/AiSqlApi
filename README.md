@@ -30,3 +30,23 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/umutekici/AISqlApi.git
 cd AISqlApi
+
+### 2. **Set Up Your API Key**
+
+You will need an API key to use the AI model (GPT-3 or similar). Add your API key to the **appsettings.json** file.
+
+```json
+{
+  "OpenAI": {
+    "ApiKey": "your-api-key-here"
+  }
+}
+
+### 3. **Run the Project**
+
+Use the following command to run the project:
+
+```bash
+dotnet run
+
+
